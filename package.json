@@ -12,7 +12,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng serve --prod --aot=false --build-optimizer=true"
+    "heroku-postbuild": "ng serve"
   },
   "private": true,
   "dependencies": {
